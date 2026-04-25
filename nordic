@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nordvik</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Jost', sans-serif; font-weight: 300; color: #2c2c2a; background: #fff; }
+    .wrap { padding: 2rem 1.5rem; max-width: 680px; margin: 0 auto; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding-bottom: 2rem; border-bottom: 0.5px solid #ddd; margin-bottom: 3rem; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 22px; letter-spacing: 0.12em; }
+    .nav-links { display: flex; gap: 2rem; font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: #888; }
+    .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: end; margin-bottom: 3rem; }
+    h1 { font-family: 'Cormorant Garamond', serif; font-size: 52px; font-weight: 300; line-height: 1.1; margin-bottom: 1rem; }
+    h1 em { font-style: italic; }
+    .hero p { font-size: 13px; line-height: 1.8; color: #888; }
+    .img-placeholder { background: #f5f4f0; border-radius: 4px; border: 0.5px solid #ddd; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; }
+    .img-placeholder span { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #aaa; }
+    .img1 { aspect-ratio: 3/4; }
+    .bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+    .img2 { aspect-ratio: 4/3; }
+    .quote { display: flex; flex-direction: column; justify-content: center; padding: 1rem; }
+    blockquote { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 300; font-style: italic; line-height: 1.4; margin-bottom: 1rem; }
+    cite { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #888; font-style: normal; }
+    footer { border-top: 0.5px solid #ddd; padding-top: 1.5rem; display: flex; justify-content: space-between; }
+    footer span { font-size: 11px; letter-spacing: 0.1em; color: #aaa; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav>
+      <div class="logo">Nordvik</div>
+      <div class="nav-links"><span>About</span><span>Work</span><span>Contact</span></div>
+    </nav>
+    <div class="hero">
+      <div>
+        <h1>Simple <em>is</em><br>beautiful</h1>
+        <p>A quiet approach to design. Clean lines, natural materials, and honest craftsmanship from the north.</p>
+      </div>
+      <div class="img-placeholder img1"><span>Photo 01</span></div>
+    </div>
+    <div class="bottom">
+      <div class="img-placeholder img2"><span>Photo 02</span></div>
+      <div class="quote">
+        <blockquote>"Less, but better — the Nordic way of living."</blockquote>
+        <cite>Studio Nordvik, 2024</cite>
+      </div>
+    </div>
+    <footer>
+      <span>© 2024 Nordvik</span>
+      <span>Helsinki · Stockholm · Oslo</span>
+    </footer>
+  </div>
+</body>
+</html>
